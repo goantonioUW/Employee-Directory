@@ -4,17 +4,16 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-function About() {
+function Home() {
   return (
-    <div>
-      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>TEAM</h1>
-        <h2>They're the Good Boys and Girls</h2>
+    <>
+      <Hero backgroundImage="https://www.15five.com/blog/wp-content/uploads/2016/05/Remote-Team-Meetings-1200x700.jpeg">
+        <h1>MEET THE TEAM!</h1>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>Welcome To The TEAM!</h1>
+            <h1>Welcome to the team!</h1>
           </Col>
         </Row>
         <Row>
@@ -35,8 +34,8 @@ function About() {
           </Col>
         </Row>
       </Container>
-    </div>
+    </>
   );
 }
 
-export default About;
+export default Home;

@@ -3,7 +3,7 @@
   background: darkgray;
   bottom: 0px;
   width: 100%;
-  position: absolute;
+  position: relative;
 }
 
 .footer span {

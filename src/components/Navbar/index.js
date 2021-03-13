@@ -8,7 +8,7 @@ import "./style.css";
 const Navbar = () => {
   return (
     <Router>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <Link className="navbar-brand" to="/">
         Employee Directory
       </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
 
       <div>
 
-        
+
         {/* Switch Pathes */}
         <Switch>
           <Route exact path="/">

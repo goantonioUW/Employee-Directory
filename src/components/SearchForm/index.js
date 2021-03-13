@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css"
 
 // Using the datalist element we can create autofill suggestions based on the props.breeds array
 const SearchForm = (props) => {
@@ -20,6 +21,7 @@ const SearchForm = (props) => {
         <select
           className="form-control"
           name="filter"
+          type="list"
           id="filter"
           onChange={() =>
             props.handleFilter(document.querySelector("#filter").value)
@@ -27,7 +29,8 @@ const SearchForm = (props) => {
         >
           <option value="First Name">First Name A-Z</option>
           <option value="Last Name">Last Name A-Z</option>
-          <option value="Age">Age</option>
+          <option value="Age Ascending">Age Ascending</option>
+          <option value="Age Descending">Age Descending</option>
           <option value="Email">Email</option>
           <option value="Location">Location city name A-Z</option>
         </select>

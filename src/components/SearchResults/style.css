@@ -1,0 +1,11 @@
+.search-results{
+	/*start ------------*/
+	width: [object Object]px; 
+	height: [object Object]px; 
+	background: #FFFFFF; 
+	border: solid #000000 0; 
+	box-shadow: 0 27px 15px rgba(86, 68, 166, 0.8)  ; 
+	-webkit-box-shadow: 0 27px 15px rgba(86, 68, 166, 0.8)  ; 
+	-moz-box-shadow: 0 27px 15px rgba(86, 68, 166, 0.8)  ; 
+    margin-bottom: 15px;
+}

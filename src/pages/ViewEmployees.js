@@ -59,11 +59,16 @@ const ViewEmployees = () => {
         setResults([...filtered]);
         console.log(filtered);
         break;
-      case "Age":
-        filtered = employees.sort((a, b) => (a.dob.age > b.dob.age ? 1 : -1));
-        setResults([...filtered]);
-        console.log(filtered);
-        break;
+        case "Age Ascending":
+          filtered = employees.sort((a, b) => (a.dob.age > b.dob.age ? 1 : -1));
+          setResults([...filtered]);
+          console.log(filtered);
+          break;      
+        case "Age Descending":
+          filtered = employees.sort((a, b) => (a.dob.age < b.dob.age ? 1 : -1));
+          setResults([...filtered]);
+          console.log(filtered);
+          break;
       case "Email":
         filtered = employees.sort((a, b) => (a.email > b.email ? 1 : -1));
         setResults([...filtered]);

@@ -5,6 +5,5 @@ Users can filter employees by: Age ascending / descending, Firstname A-Z, Lastna
 Users also have the ability to search employees by name. 
 
 ## This is a demo of the live application
-[logo]: https://github.com/goanotniouw/README/raw/main/images/demoGif "Demo"
 
- [  ![screenshot](https://github.com/goantonioUW/employee-directory/blob/main/images/Screenshot.png)](./images/demoGif.gif)
+ [![screenshot](https://github.com/goantonioUW/employee-directory/blob/main/images/Screenshot.png)](./images/demoGif.gif)

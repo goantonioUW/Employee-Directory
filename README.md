@@ -6,4 +6,5 @@ Users also have the ability to search employees by name.
 
 ## Click on the image for a demo of the working application!
 
- [![screenshot](https://github.com/goantonioUW/employee-directory/blob/main/images/Screenshot.png)](./images/demoGif.gif)
+ [![screenshot](https://employee-directory-team.herokuapp.com/)](./images/demoGif.gif)
+
